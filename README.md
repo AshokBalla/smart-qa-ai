@@ -1,4 +1,4 @@
-# Testing AI Dashboard
+# Smart QA AI
 
 Professional QA Automation showcase project.
 
@@ -44,7 +44,7 @@ Professional QA Automation showcase project.
 ## Project Structure
 
 ```text
-testing-ai-dashboard/
+smart-qa-ai/
 ├── automation/          # Playwright tests (JavaScript)
 │   ├── api/            # API Test specs
 │   ├── pages/          # Page Object Models

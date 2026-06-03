@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/playwright.config.js",
-    "rootDir": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation",
+    "configFile": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/playwright.config.js",
+    "rootDir": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -16,7 +16,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results",
+        "outputDir": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -24,7 +24,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation",
+        "testDir": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation",
         "testIgnore": [],
         "testMatch": [
           "**/*.spec.js"
@@ -90,9 +90,9 @@
                       "duration": 509,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js:13:31",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js:13:31",
                         "location": {
-                          "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js",
+                          "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js",
                           "column": 31,
                           "line": 13
                         },
@@ -101,11 +101,11 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js",
+                            "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js",
                             "column": 31,
                             "line": 13
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 11 |\u001b[39m       }\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m     \n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m     expect(body\u001b[33m.\u001b[39mtoken)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js:13:31\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 11 |\u001b[39m       }\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m     \n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m     expect(body\u001b[33m.\u001b[39mtoken)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js:13:31\u001b[22m"
                         }
                       ],
                       "stdout": [],
@@ -117,11 +117,11 @@
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results/api-auth-api-Auth-API-Test-4b42c-return-status-200-and-token-chromium/error-context.md"
+                          "path": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results/api-auth-api-Auth-API-Test-4b42c-return-status-200-and-token-chromium/error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js",
+                        "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js",
                         "column": 31,
                         "line": 13
                       }
@@ -154,9 +154,9 @@
                       "duration": 520,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js:25:31",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js:25:31",
                         "location": {
-                          "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js",
+                          "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js",
                           "column": 31,
                           "line": 25
                         },
@@ -165,11 +165,11 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js",
+                            "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js",
                             "column": 31,
                             "line": 25
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 23 |\u001b[39m       }\n \u001b[90m 24 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 25 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 26 |\u001b[39m     \n \u001b[90m 27 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 28 |\u001b[39m     expect(body\u001b[33m.\u001b[39merror)\u001b[33m.\u001b[39mtoBe(\u001b[32m'Missing password'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js:25:31\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m400\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 23 |\u001b[39m       }\n \u001b[90m 24 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 25 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 26 |\u001b[39m     \n \u001b[90m 27 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 28 |\u001b[39m     expect(body\u001b[33m.\u001b[39merror)\u001b[33m.\u001b[39mtoBe(\u001b[32m'Missing password'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js:25:31\u001b[22m"
                         }
                       ],
                       "stdout": [],
@@ -181,11 +181,11 @@
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results/api-auth-api-Auth-API-Test-61258-us-400-for-missing-password-chromium/error-context.md"
+                          "path": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results/api-auth-api-Auth-API-Test-61258-us-400-for-missing-password-chromium/error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/auth-api.spec.js",
+                        "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/auth-api.spec.js",
                         "column": 31,
                         "line": 25
                       }
@@ -235,9 +235,9 @@
                       "duration": 510,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js:8:31",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js:8:31",
                         "location": {
-                          "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js",
+                          "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js",
                           "column": 31,
                           "line": 8
                         },
@@ -246,11 +246,11 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js",
+                            "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js",
                             "column": 31,
                             "line": 8
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m  6 |\u001b[39m   test(\u001b[32m'GET Users - should return status 200 and user list'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n \u001b[90m  7 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m`${baseURL}/api/users?page=2`\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 |\u001b[39m     \n \u001b[90m 10 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 11 |\u001b[39m     expect(body\u001b[33m.\u001b[39mdata)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js:8:31\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m  6 |\u001b[39m   test(\u001b[32m'GET Users - should return status 200 and user list'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n \u001b[90m  7 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m`${baseURL}/api/users?page=2`\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 |\u001b[39m     \n \u001b[90m 10 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 11 |\u001b[39m     expect(body\u001b[33m.\u001b[39mdata)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js:8:31\u001b[22m"
                         }
                       ],
                       "stdout": [],
@@ -262,11 +262,11 @@
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results/api-users-api-Users-API-Te-91ffe-rn-status-200-and-user-list-chromium/error-context.md"
+                          "path": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results/api-users-api-Users-API-Te-91ffe-rn-status-200-and-user-list-chromium/error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js",
+                        "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js",
                         "column": 31,
                         "line": 8
                       }
@@ -299,9 +299,9 @@
                       "duration": 490,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js:22:31",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js:22:31",
                         "location": {
-                          "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js",
+                          "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js",
                           "column": 31,
                           "line": 22
                         },
@@ -310,11 +310,11 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js",
+                            "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js",
                             "column": 31,
                             "line": 22
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 20 |\u001b[39m       }\n \u001b[90m 21 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m     \n \u001b[90m 24 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m     expect(body\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mtoBe(\u001b[32m'morpheus'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js:22:31\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 20 |\u001b[39m       }\n \u001b[90m 21 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m     \n \u001b[90m 24 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m 25 |\u001b[39m     expect(body\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mtoBe(\u001b[32m'morpheus'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js:22:31\u001b[22m"
                         }
                       ],
                       "stdout": [],
@@ -326,11 +326,11 @@
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results/api-users-api-Users-API-Te-99179-status-201-and-created-user-chromium/error-context.md"
+                          "path": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results/api-users-api-Users-API-Te-99179-status-201-and-created-user-chromium/error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/api/users-api.spec.js",
+                        "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/api/users-api.spec.js",
                         "column": 31,
                         "line": 22
                       }
@@ -431,9 +431,9 @@
                       "duration": 12099,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.oxd-topbar-header-breadcrumb-module')\nExpected: \u001b[32m\"Dashboard\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.oxd-topbar-header-breadcrumb-module')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.oxd-topbar-header-breadcrumb-module')\nExpected: \u001b[32m\"Dashboard\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.oxd-topbar-header-breadcrumb-module')\u001b[22m\n\n    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/tests/failure_demo.spec.js:13:72",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.oxd-topbar-header-breadcrumb-module')\nExpected: \u001b[32m\"Dashboard\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.oxd-topbar-header-breadcrumb-module')\u001b[22m\n\n    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/tests/failure_demo.spec.js:13:72",
                         "location": {
-                          "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/tests/failure_demo.spec.js",
+                          "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/tests/failure_demo.spec.js",
                           "column": 72,
                           "line": 13
                         },
@@ -442,11 +442,11 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/tests/failure_demo.spec.js",
+                            "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/tests/failure_demo.spec.js",
                             "column": 72,
                             "line": 13
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.oxd-topbar-header-breadcrumb-module')\nExpected: \u001b[32m\"Dashboard\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.oxd-topbar-header-breadcrumb-module')\u001b[22m\n\n\n\u001b[0m \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[90m// This is expected to fail or timeout if we check for something specific to a successful login\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.oxd-topbar-header-breadcrumb-module'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m5000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/tests/failure_demo.spec.js:13:72\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.oxd-topbar-header-breadcrumb-module')\nExpected: \u001b[32m\"Dashboard\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.oxd-topbar-header-breadcrumb-module')\u001b[22m\n\n\n\u001b[0m \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[90m// This is expected to fail or timeout if we check for something specific to a successful login\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.oxd-topbar-header-breadcrumb-module'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m5000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/ashokballa/Desktop/test/smart-qa-ai/automation/tests/failure_demo.spec.js:13:72\u001b[22m"
                         }
                       ],
                       "stdout": [],
@@ -458,16 +458,16 @@
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results/tests-failure_demo-Failure-27ba0-AI-analysis-and-screenshots-chromium/test-failed-1.png"
+                          "path": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results/tests-failure_demo-Failure-27ba0-AI-analysis-and-screenshots-chromium/test-failed-1.png"
                         },
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/test-results/tests-failure_demo-Failure-27ba0-AI-analysis-and-screenshots-chromium/error-context.md"
+                          "path": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/test-results/tests-failure_demo-Failure-27ba0-AI-analysis-and-screenshots-chromium/error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/ashokballa/Desktop/test/playwright-ai-dashboard/automation/tests/failure_demo.spec.js",
+                        "file": "/Users/ashokballa/Desktop/test/smart-qa-ai/automation/tests/failure_demo.spec.js",
                         "column": 72,
                         "line": 13
                       }
